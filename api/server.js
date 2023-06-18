@@ -11,6 +11,16 @@ app.use(express.static('public'));
 
 app.use('/similar-artists', similarArtists);
 
+if (port) {
+  app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
+}
+
+module.exports = app;
+
+/*
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+*/
