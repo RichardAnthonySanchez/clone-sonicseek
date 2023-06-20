@@ -3,7 +3,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/similar-artists"
+            "destination": "/my-app/"
         }
     ]
 }
