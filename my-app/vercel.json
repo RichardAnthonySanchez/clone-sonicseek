@@ -1,4 +1,15 @@
 {
+    "builds": [
+        {
+          "src": "server.js",
+          "use": "@vercel/node"
+        },
+        {
+          "src": "my-app/**",
+          "use": "@vercel/static"
+        }
+      ],
+      
     "rewrites": [
         {
             "source": "/similar-artists",
