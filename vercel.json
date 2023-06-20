@@ -1,8 +1,9 @@
 {
+    "root": "my-app",
     "rewrites": [
         {
-            "source": "/api/(.*)",
-            "destination": "/api"
+            "source": "/(.*)",
+            "destination": "/similar-artists"
         }
     ]
 }
