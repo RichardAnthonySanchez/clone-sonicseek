@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/similar-artists",
-            "destination": "/api/server.js"
+            "source": "/similar-artists(.*)",
+            "destination": "/api"
         },
         {
             "source": "/(.*)",
